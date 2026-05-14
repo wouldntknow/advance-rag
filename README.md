@@ -1,18 +1,42 @@
-Retrieval-Augmented Generation (RAG) System
-Overview
+# Retrieval-Augmented Generation (RAG) System
 
-A RAG-based question answering system built using LangChain, ChromaDB, and Google Gemini embeddings.
+## Overview
+A Retrieval-Augmented Generation (RAG) based question answering system built using LangChain, ChromaDB, and Google Gemini embeddings.  
+The project demonstrates semantic search, vector storage, and context-aware response generation using LLM workflows.
 
-Features
-Vector embeddings
-Semantic similarity search
-ChromaDB vector storage
-Context-aware response generation
-LangChain retrieval pipeline
-Technologies Used
-Python
-LangChain
-ChromaDB
-Google Gemini API
-Setup
-pip install langchain-chroma langchain-google-gena
+---
+
+## Features
+- Vector embeddings using Google Gemini embedding models
+- Semantic similarity search
+- ChromaDB vector database integration
+- Context retrieval pipeline using LangChain
+- LLM-based response generation
+- Retrieval-based question answering workflow
+
+---
+
+## Technologies Used
+- Python
+- LangChain
+- ChromaDB
+- Google Gemini API
+- Google Colab
+
+---
+
+## Project Workflow
+1. Generate embeddings for documents
+2. Store embeddings in ChromaDB vector database
+3. Perform semantic similarity search
+4. Retrieve relevant context
+5. Generate responses using LLMs
+
+---
+
+
+```Installing Dependencies 
+pip install -U google-generativeai
+pip install -U langchain-chroma
+pip install -U langchain-google-genai
+```
