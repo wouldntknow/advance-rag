@@ -45,7 +45,7 @@ Usage
 Run the notebook or Python script in Google Colab or a local Python environment after configuring your API key.
 
 ## Future Improvements
-Add Streamlit or Chainlit interface
-Support PDF/document uploads
-Improve retrieval accuracy
-Add chat memory and conversation history
+- Add Streamlit or Chainlit interface
+- Support PDF/document uploads
+- Improve retrieval accuracy
+- Add chat memory and conversation history
